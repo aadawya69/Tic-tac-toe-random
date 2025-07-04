@@ -27,7 +27,7 @@ def tic_tac_toe():
             continue
         if check_win(board, current):
             print_board(board)
-            print(f"🎉 Player {current} wins!")
+            print(f" Player {current} wins!")
             break
         if is_board_full(board):
             print_board(board)
